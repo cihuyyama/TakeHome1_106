@@ -5,11 +5,16 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>view</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div>TODO write content</div>
+        <h1 align="center">Hiling</h1>
+        <hr>
+        <br>
+        <label>Nama : </label> <p th:text="${name}" style="display:inline;" /><br>
+        <label>Lokasi : </label> <p th:text="${locate}" style="display:inline" /><br><br>
+        <img th:src="${img}" style="width:55%; display:block; margin-left:auto; margin-right:auto;">
     </body>
 </html>
